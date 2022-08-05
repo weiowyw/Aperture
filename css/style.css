@@ -205,9 +205,11 @@ section ul li{
     margin-bottom:82px;
 }
 .container_Past_clients{
-    display:flex;
     max-width:1200px;
     margin:auto;
+}
+.sub_container_Past_clients{
+    display:flex;
     align-items:center;
     justify-content: space-between;
 }
