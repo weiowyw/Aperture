@@ -23,7 +23,7 @@ header{
     min-height: 90px;
 }
 .container_main{
-    max-width:1400px;
+    max-width:1440px;
     margin: auto;
     align-items: center;
 }
@@ -204,7 +204,7 @@ section ul li{
     color: #C0C0C0;
     margin-bottom:82px;
 }
-.sub_container_Past_clients{
+.container_Past_clients{
     display:flex;
     max-width:1200px;
     margin:auto;
