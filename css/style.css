@@ -22,10 +22,11 @@ header{
     padding:24px 0;
     min-height: 90px;
 }
-.container_main{
+.container_header{
     max-width:1440px;
     margin: auto;
     align-items: center;
+
 }
 .d_flex{
     display: flex;
@@ -73,18 +74,22 @@ header ul li:last-of-type a{
     line-height: 24px;
     letter-spacing:0.4px;
 }
+header ul li:last-of-type:hover a{
+    transform:scale(1.1);
+}
 .section_AS{
     background-image:url('imgs/Aperture_bg_img.jpg');
     background-size: cover;
     height: 100vh;
     position: relative;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    padding-bottom: 71px;
 }
-.padding_for_AS{
-    padding-top:446px;
-}
-.sub_container_main{
-    max-width: 580px;
-    margin:0 auto;
+.container_AS{
+    max-width:580px;
+
 }
 .sub_title{
     font-family: 'Poppins';
@@ -213,8 +218,80 @@ section ul li{
     align-items:center;
     justify-content: space-between;
 }
+.section_Fuji{
+    background-image:url('imgs/Fuji.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    max-height:600px;
+    display:flex;
+    align-items:center;
+    justify-content: right;
+    padding-right:62px;
+}
+.section_Fuji div{
+    max-width:298px;
+}
+.section_Fuji div h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section_Fuji div p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
 
 
+
+
+
+
+
+/*.my-flex-block{*/
+/*    background-color: red;*/
+/*    margin:auto;*/
+/*    flex-basis: 300px;*/
+/*}*/
+/*.my-flex-container{*/
+/*    display:flex;*/
+/*    justify-content: center;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+
+
+
+/*.order_1{*/
+/*    order:1;*/
+/*}*/
+/*.order_2{*/
+/*    order:2;*/
+/*}*/
+/*.order_3{*/
+/*    order:3;*/
+/*}*/
+/*.order_4{*/
+/*    order:4;*/
+/*}*/
+/*@media screen and (max-width: 900px){*/
+/*    .order_1{*/
+/*        order:4*/
+/*    }*/
+/*    .order_4{*/
+/*        order:1*/
+/*    }*/
+/*    .*/
+/*}*/
 
 
 /*.test_link{*/
