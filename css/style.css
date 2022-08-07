@@ -69,9 +69,7 @@ header ul li:last-of-type a{
     border-radius: 14px;
     color: black;
     padding: 9px 20px 13px 20px;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 24px;
+    font:18px/24px 'Poppins';
     letter-spacing:0.4px;
 }
 header ul li:last-of-type:hover a{
@@ -92,11 +90,9 @@ header ul li:last-of-type:hover a{
 
 }
 .sub_title{
-    font-family: 'Poppins';
+    font: 14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -104,21 +100,17 @@ header ul li:last-of-type:hover a{
     padding-top:20px;
 }
 .title{
-    font-family: 'Poppins';
+    font: 54px/59px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 54px;
     text-align: center;
-    line-height: 59px;
     color: #FFFFFF;
 }
 .desc_AS{
     margin-top:18px;
-    font-family: 'Poppins';
+    font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     text-align: center;
     color: #C0C0C0;
 }
@@ -128,21 +120,17 @@ section ul{
     float:right;
 }
 section ul li{
-    font-family: 'Poppins';
+    font:12px/12px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
     color: #FFFFFF;
     margin-left:16px;
 }
 
 .fixed_info li{
-    font-family: 'Poppins';
+    font:12px/12px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
     color: #FFFFFF;
     display:inline-flex;
     margin-left:16px;
@@ -190,21 +178,17 @@ section ul li{
     padding-bottom: 100px;
 }
 .title_Past_clients{
-    font-family: 'Poppins';
+    font: 40px/42px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 42px;
     text-align: center;
     color: #FFFFFF;
     margin-bottom:15px;
 }
 .desc_Past_clients{
-    font-family: 'Poppins';
+    font:24px/30px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
     text-align: center;
     color: #C0C0C0;
     margin-bottom:82px;
@@ -233,21 +217,17 @@ section ul li{
     max-width:298px;
 }
 .section_Fuji div h3{
-    font-family: 'Poppins';
+    font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 .section_Fuji div p{
-    font-family: 'Poppins';
+    font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     color: #C0C0C0;
 }
 
