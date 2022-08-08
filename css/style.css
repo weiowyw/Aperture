@@ -205,9 +205,8 @@ section ul li{
 .section_Fuji{
     background-image:url('imgs/Fuji.jpg');
     background-size: cover;
-    height: 100vh;
     position: relative;
-    max-height:600px;
+    min-height:600px;
     display:flex;
     align-items:center;
     justify-content: right;
@@ -230,7 +229,60 @@ section ul li{
     font-weight: 400;
     color: #C0C0C0;
 }
-
+.section_Monstera{
+    background-image:url('imgs/Monstera.jpg');
+    background-size: cover;
+    position: relative;
+    min-height:600px;
+    display:flex;
+    align-items:center;
+    justify-content: right;
+    padding-right:87px;
+}
+.section_Monstera div{
+    max-width:273px;
+}
+.section_Monstera h3{
+    font:14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section_Monstera p{
+    font:14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+}
+.section_StarFall{
+    background-image:url('imgs/Starfall.jpg');
+    background-size: cover;
+    position: relative;
+    min-height:600px;
+    display:flex;
+    align-items:center;
+    justify-content: right;
+    padding-right:106px;
+}
+.section_StarFall div{
+    max-width:254px;
+}
+.section_StarFall h3{
+    font:14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section_StarFall p{
+    font:14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+}
 
 
 
