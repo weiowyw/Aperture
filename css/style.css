@@ -299,7 +299,6 @@ section ul li{
     font:40px/42px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    text-align: center;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
@@ -307,7 +306,6 @@ section ul li{
     font:24px/30px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    text-align: center;
     color: #C0C0C0;
     margin-bottom:22px;
 }
@@ -315,7 +313,6 @@ section ul li{
     font:16px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
-    text-align: center;
     letter-spacing: 0.4px;
     color: #000000;
     background-color: white;
