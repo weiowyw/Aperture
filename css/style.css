@@ -89,7 +89,7 @@ header ul li:last-of-type:hover a{
     max-width:580px;
 
 }
-.sub_title{
+.sub_title_AS{
     font: 14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -99,7 +99,7 @@ header ul li:last-of-type:hover a{
     color: #C0C0C0;
     padding-top:20px;
 }
-.title{
+.title_AS{
     font: 54px/59px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -212,10 +212,10 @@ section ul li{
     justify-content: right;
     padding-right:62px;
 }
-.section_Fuji div{
+.container_Fuji{
     max-width:298px;
 }
-.section_Fuji div h3{
+.title_Fuji{
     font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -223,7 +223,7 @@ section ul li{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.section_Fuji div p{
+.desc_Fuji{
     font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -239,10 +239,10 @@ section ul li{
     justify-content: right;
     padding-right:87px;
 }
-.section_Monstera div{
+.container_Monstera{
     max-width:273px;
 }
-.section_Monstera h3{
+.title_Monstera{
     font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -250,7 +250,7 @@ section ul li{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.section_Monstera p{
+.desc_Monstera{
     font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -266,10 +266,10 @@ section ul li{
     justify-content: right;
     padding-right:106px;
 }
-.section_StarFall div{
+.container_StarFall{
     max-width:254px;
 }
-.section_StarFall h3{
+.title_StarFall{
     font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -277,7 +277,7 @@ section ul li{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.section_StarFall p{
+.desc_StarFall{
     font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -289,12 +289,13 @@ section ul li{
     align-items: center;
     justify-content: center;
     min-height:414px;
+    text-align: center;
 }
-.section_get_in_touch div{
+.container_get_in_touch{
     max-width:571px;
 
 }
-.section_get_in_touch h2{
+.title_get_in_touch{
     font:40px/42px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -302,7 +303,7 @@ section ul li{
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.section_get_in_touch p{
+.desc_get_in_touch{
     font:24px/30px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -310,7 +311,7 @@ section ul li{
     color: #C0C0C0;
     margin-bottom:22px;
 }
-.section_get_in_touch a{
+.button_get_in_touch{
     font:16px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -319,13 +320,11 @@ section ul li{
     color: #000000;
     background-color: white;
     border-radius: 14px;
-    display:flex;
+    display:inline-flex;
     align-items:center;
-    max-width:154px;
-    min-height:42px;
-    padding-left:4px;
+    padding:5px 10px 5px 4px;
 }
-.section_get_in_touch a:before{
+.button_get_in_touch:before{
     content:"";
     background-color: black;
     height:32px;
