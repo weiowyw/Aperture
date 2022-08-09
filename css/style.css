@@ -283,7 +283,56 @@ section ul li{
     font-weight: 400;
     color: #C0C0C0;
 }
+.section_get_in_touch{
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:414px;
+}
+.section_get_in_touch div{
+    max-width:571px;
 
+}
+.section_get_in_touch h2{
+    font:40px/42px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.section_get_in_touch p{
+    font:24px/30px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom:22px;
+}
+.section_get_in_touch a{
+    font:16px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: white;
+    border-radius: 14px;
+    display:flex;
+    align-items:center;
+    max-width:154px;
+    min-height:42px;
+    padding-left:4px;
+}
+.section_get_in_touch a:before{
+    content:"";
+    background-color: black;
+    height:32px;
+    width:32px;
+    border-radius:13px;
+    margin-right:6px;
+}
 
 
 
