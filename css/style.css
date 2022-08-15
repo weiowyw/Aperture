@@ -401,6 +401,7 @@ footer{
 }
 .container_footer{
     max-width:1168px;
+    margin:auto;
 }
 .container_footer_Aperture{
     display:flex;
@@ -423,18 +424,17 @@ footer{
     display:flex;
     padding-bottom:36px;
 }
-.distance_between_lists{
+.business_areas_list{
     margin-right:55px;
 }
-.footer_list ul li{
+.business_areas_list li{
     font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
     color: #C0C0C0;
     margin-bottom: 10px;
-
 }
-.footer_list ul li:first-of-type{
+.business_areas_list li:first-of-type{
     font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -443,14 +443,51 @@ footer{
     color: #C0C0C0;
     margin-bottom: 10px;
 }
-.footer_list ul li a{
+.business_areas_list li a{
     font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
 }
-.footer_list ul li:last-of-type a{
+.business_areas_list li:last-of-type a{
     font:13px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.pages_list{
+    padding-right: 102px;
+}
+.pages_list li{
+    font:14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #C0C0C0;
+    margin-bottom: 10px;
+}
+.pages_list li:first-of-type{
+    font:14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 10px;
+}
+.pages_list li a{
+    font:13px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.pages_list li:nth-child(4) a{
+    font:14px/20px 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.pages_list li:nth-child(6) a{
+    font:14px/20px 'Poppins';
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
@@ -484,17 +521,24 @@ footer{
     padding-top:40px;
     padding-bottom: 40px;
 }
-.input_bar{
-    width:468px;
-    height:52px;
+form{
+    background-color: white;
+    display:flex;
     border-radius: 12px;
+    padding-right:6px;
+    align-items: center;
+}
+.input_bar{
+    width:389px;
+    height:52px;
+    background-color: transparent;
+    border:none;
 }
 .input_button{
-    background-color: brown;
     width:63px;
     height:30px;
+    background-color: black;
     border-radius: 11px;
-    display:flex;
 }
 .copyright_footer{
     margin-top:56px;
@@ -530,7 +574,7 @@ footer{
 /*    flex-wrap: wrap;*/
 /*}*/
 
-
+/*
 
 
 /*.order_1{*/
