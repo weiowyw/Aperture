@@ -204,6 +204,9 @@ section ul li{
     align-items:center;
     justify-content: space-between;
 }
+.sub_container_Past_clients a{
+    max-width: 128px;
+}
 .section_Fuji{
     background-image:url('imgs/Fuji.jpg');
     background-size: cover;
@@ -561,8 +564,49 @@ form{
 .copyright_footer ul li a{
     display:inline-block;
 }
+.owl-carousel{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left:0;
+    top:63px;
+}
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content:"\f053";
+    color:white;
+    font-size:30px;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right:0;
+    top:63px;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content:"\f054";
+    color:white;
+    font-size:30px;
+}
 
+/*280px; fold*/
+/*320px; iphone 4 5 se*/
+/*360px;android*/
+/*375px;iphone 11/12/13 mini 6 7 8*/
+/*390px;iPhone 11 12 13*/
+/*414px; iPhone plus 8plus xs*/
+/*428px;iPhone pro max 11 12 13*/
 
+/*768px; iPad mini android tablet;*/
+/*820px; iPad air;*/
+/*992px; iPad pro;*/
+/*1024px; pro max tablet flipped;*/
 /*.my-flex-block{*/
 /*    background-color: red;*/
 /*    margin:auto;*/

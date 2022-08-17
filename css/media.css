@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 992px) {
+     header{
+         padding:24px 15px;
+     }
+}
+
+@media screen and (max-width: 815px) {
+    header ul li{
+        margin-left:10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 767px) {
+    nav{
+        display: none;
+    }
+    .section_AS{
+        height: 75vh;
+    }
+    .newsletter_bar{
+        display:block;
+    }
+    .sub_container_Past_clients{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .section_what_we_do .d_flex{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
