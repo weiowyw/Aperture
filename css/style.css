@@ -205,6 +205,7 @@ section ul li{
     justify-content: space-between;
 }
 .sub_container_Past_clients a{
+    display:inline-block;
     max-width: 128px;
 }
 .section_Fuji{
@@ -573,7 +574,7 @@ form{
 .owl-nav .owl-prev{
     position: absolute;
     left:0;
-    top:63px;
+    top:20px;
 }
 .owl-nav .owl-prev:before{
     font-family: "Font Awesome 6 Free";
@@ -585,7 +586,7 @@ form{
 .owl-nav .owl-next{
     position: absolute;
     right:0;
-    top:63px;
+    top:20px;
 }
 .owl-nav .owl-next:before{
     font-family: "Font Awesome 6 Free";
