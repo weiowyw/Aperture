@@ -131,8 +131,25 @@
     .business_areas_list{
         margin-right: 5px;
     }
+    .section_Fuji{
+        padding-right:45px;
+    }
+    .section_Monstera{
+        padding-right:67px;
+    }
+    .section_StarFall{
+        padding-right:85px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-
+    .section_Fuji{
+        padding-right:10px;
+    }
+    .section_Monstera{
+        padding-right:30px;
+    }
+    .section_StarFall{
+        padding-right:50px;
+    }
 }
