@@ -80,6 +80,7 @@ header ul li:last-of-type:hover a{
 .section_AS{
     background-image:url('imgs/Aperture_bg_img.jpg');
     background-size: cover;
+    background-position: center;
     height: 100vh;
     position: relative;
     display:flex;
@@ -211,6 +212,7 @@ section ul li{
 .section_Fuji{
     background-image:url('imgs/Fuji.jpg');
     background-size: cover;
+    background-position: center;
     position: relative;
     min-height:600px;
     display:flex;
@@ -238,6 +240,7 @@ section ul li{
 .section_Monstera{
     background-image:url('imgs/Monstera.jpg');
     background-size: cover;
+    background-position: center;
     position: relative;
     min-height:600px;
     display:flex;
@@ -265,6 +268,7 @@ section ul li{
 .section_StarFall{
     background-image:url('imgs/Starfall.jpg');
     background-size: cover;
+    background-position: center;
     position: relative;
     min-height:600px;
     display:flex;
