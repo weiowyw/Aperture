@@ -90,6 +90,8 @@
     }
     .desc_AS{
         font:12px/18px 'Poppins';
+        padding-left:15px;
+        padding-right: 15px;
     }
     .fixed_info{
         bottom:0;
