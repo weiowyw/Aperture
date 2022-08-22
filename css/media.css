@@ -130,6 +130,14 @@
     .owl-nav .owl-next{
         right:15px;
     }
+    .container_footer{
+        padding-left:15px;
+        padding-right:15px;
+    }
+    .section_get_in_touch{
+        padding-left:15px;
+        padding-right:15px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -160,4 +168,11 @@
     .section_StarFall{
         padding-right:50px;
     }
+    .input_bar {
+        width: 130px;
+    }
+    .input_button{
+        width:40px;
+    }
+
 }
