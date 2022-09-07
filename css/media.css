@@ -47,9 +47,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    nav{
-        display: none;
-    }
+
     .section_AS{
         height: 75vh;
     }
@@ -78,6 +76,12 @@
 }
 
 @media screen and (max-width: 428px) {
+    nav{
+        width:100%;
+    }
+    nav.nav-open .menu-btn{
+        left:85%;
+    }
     .section_what_we_do .d_flex{
         padding-left: 15px;
         padding-right: 15px;
@@ -175,4 +179,21 @@
         width:40px;
     }
 
+}
+@media screen and (max-width:1024px){
+    nav .menu-btn{
+        display:flex;
+    }
+    nav{
+        transform: translateX(100%);
+    }
+    nav .nav-links li{
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    nav{
+        background: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(20px);
+        transform: translateX(100%);
+    }
 }

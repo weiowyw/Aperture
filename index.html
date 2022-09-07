@@ -6,7 +6,8 @@
     <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
@@ -16,31 +17,86 @@
 </head>
 <body>
 <header>
-    <div class="container_header d_flex">
-        <a href="#" class="logo">
-            <img src="imgs/logo.svg" alt="logo" width="128">
-        </a>
+<!--    <div class="container_header d_flex">-->
+       <a href="#" class="logo">
+           <img src="imgs/logo.svg" alt="logo" width="128">
+  </a>
         <nav>
-            <ul>
-                <li>
+            <div class="menu-btn">
+                <div class="line line__1"></div>
+                <div class="line line__2"></div>
+                <div class="line line__3"></div>
+            </div>
+
+            <div class="sub-menu-btn">
+                <div class="line line__1"></div>
+                <div class="line line__2"></div>
+            </div>
+
+            <ul class="nav-links">
+                <li class="link">
                     <a href="#">Business areas</a>
                 </li>
-                <li>
+                <li class="link">
                     <a href="#">Featured images</a>
+                    <ol>
+                        <li><a href="#">designers</a></li>
+                        <li><a href="#">developers</a></li>
+                    </ol>
                 </li>
-                <li>
+                <li class="link">
                     <a href="#">Gear cage</a>
+                    <ol>
+                        <li><a href="#">web</a></li>
+                        <li><a href="#">graphic </a></li>
+                        <li><a href="#">apps </a></li>
+                    </ol>
                 </li>
-                <li>
-<!--                    <i style="color:white" class="fa-solid fa-phone"></i>-->
+                <li class="link">
                     <a href="#">Contact</a>
+                    <ol>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Social</a></li>
+                    </ol>
                 </li>
-                <li>
+                <li class="link">
                     <a href="#">Get template</a>
+                    <ol>
+                        <li>
+                            <a target="_blank" href="https://twitter.com/DevLoop01">
+                                Twitter <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://codepen.io/dev_loop/">
+                                Codepen <i class="fab fa-codepen"></i>
+                            </a>
+                        </li>
+                    </ol>
                 </li>
             </ul>
         </nav>
-    </div>
+<!--        <nav>-->
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <a href="#">Business areas</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Featured images</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Gear cage</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--&lt;!&ndash;                    <i style="color:white" class="fa-solid fa-phone"></i>&ndash;&gt;-->
+<!--                    <a href="#">Contact</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Get template</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </div>-->
 </header>
 <section class="section_AS">
     <div class="container_AS">
@@ -62,42 +118,57 @@
     <div class="container_what_we_do">
         <h2>What we do.</h2>
         <p>The areas that we're specialized in.</p>
-        <div class="d_flex">
-            <div class="item">
-                <div class="desc_img">
-                    <h4>Product Photography</h4>
-                    <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                    <a href="#" class="button">Read more</a>
+        <div id="accordion">
+            <h3></h3>
+            <div class="d_flex">
+                <div class="item">
+                    <div class="desc_img">
+                        <h4>Product Photography</h4>
+                        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                        <a href="#" class="button">Read more</a>
+                    </div>
+                    <img src="imgs/img1.jpg" alt="img">
                 </div>
-                <img src="imgs/img1.jpg" alt="img">
+                <div class="item">
+                    <div class="desc_img">
+                        <h4>Architecture Photography</h4>
+                        <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
+                        <a href="#" class="button">Read more</a>
+                    </div>
+                    <img src="imgs/img2.jpg" alt="img">
+                </div>
             </div>
-            <div class="item">
-                <div class="desc_img">
-                    <h4>Architecture Photography</h4>
-                    <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
-                    <a href="#" class="button">Read more</a>
+            <h3></h3>
+            <div class="d_flex">
+                <div class="item">
+                    <div class="desc_img">
+                        <h4>Drone Photography</h4>
+                        <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                        <a href="#" class="button">Read more</a>
+                    </div>
+                    <img src="imgs/img3.jpg" alt="img">
                 </div>
-                <img src="imgs/img2.jpg" alt="img">
-            </div>
-            <div class="item">
-                <div class="desc_img">
-                    <h4>Drone Photography</h4>
-                    <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
-                    <a href="#" class="button">Read more</a>
+                <div class="item">
+                    <div class="desc_img">
+                        <h4>Wildlife Photography</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+                        <a href="#" class="button">Read more</a>
+                    </div>
+                    <img src="imgs/img4.jpg" alt="img">
                 </div>
-                <img src="imgs/img3.jpg" alt="img">
-            </div>
-            <div class="item">
-                <div class="desc_img">
-                    <h4>Wildlife Photography</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
-                    <a href="#" class="button">Read more</a>
-                </div>
-                <img src="imgs/img4.jpg" alt="img">
             </div>
         </div>
     </div>
 </section>
+<!--<section class="section_gear_cage">-->
+<!--    <div class="container_gear_cage h-max">-->
+<!--        <h4>The tools that we use.</h4>-->
+<!--        <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed film". While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to capture the amazing things around us.</p>-->
+<!--    </div>-->
+<!--    <div class="img_position">-->
+
+<!--    </div>-->
+<!--</section>-->
 <section class="section_Fuji">
     <div class="container_Fuji">
         <h3 class="title_Fuji">Sunset at Mount Fuji</h3>
@@ -249,6 +320,7 @@
 
 <script src="https://kit.fontawesome.com/c090ec296e.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/script.js"></script>
 
