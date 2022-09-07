@@ -757,7 +757,6 @@ nav a {
     user-select: none;
     color: #fff; }
 nav .nav-links {
-    display:flex;
     --link-height: 60px;
     position: relative;
     width: 100%; }
