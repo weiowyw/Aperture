@@ -613,6 +613,7 @@ form{
     text-indent: 0;
     margin-top:0;
     overflow:inherit;
+    display: none;
  }
  .ui-icon:before{
 
@@ -899,3 +900,15 @@ nav.sub-menu-open .nav-links li {
     transform: translateY(-10%); }
 nav.sub-menu-open .nav-links .hover-el {
     opacity: 0; }
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background-color: black;
+    border:none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    border:none
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon {
+    background-image:none;
+}
