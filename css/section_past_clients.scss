@@ -1,0 +1,36 @@
+@import "neededDefaults";
+
+
+.section_Past_clients {
+  background-color: black;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  a{
+    display:inline-block;
+    max-width: 128px;
+  }
+}
+.title_Past_clients{
+  font: 40px/42px $main_font;
+  @extend %font-default;
+  text-align: center;
+  color: $white_color;
+  margin-bottom:15px;
+  @include max-screen(428px){
+    font: 30px/32px 'Poppins';
+  }
+}
+.desc_Past_clients{
+  font:24px/30px $main_font;
+  @extend %font-default;
+  text-align: center;
+  color: $grey_color;
+  margin-bottom:82px;
+  @include max-screen(428px){
+    font:17px/24px 'Poppins';
+  }
+}
+.container_Past_clients{
+  max-width:1200px;
+  margin:auto;
+}

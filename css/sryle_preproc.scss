@@ -1,0 +1,109 @@
+@import "style.css";
+@import "media.css";
+
+@import "fixed_info";
+@import "footer";
+@import "header";
+@import "section_as";
+@import "section_fuji";
+@import "section_get_in_touch";
+@import "section_monstera";
+@import "section_past_clients";
+@import "section_starfall";
+@import "section_what_we_do";
+
+
+$main_font: 'Poppins';
+$main_color: #000000;
+$white_color: #FFFFFF;
+$grey_color: #C0C0C0;
+
+
+@mixin max-screen($res)
+{
+  @media screen and (max-width: $res)
+  {
+    @content;
+  }
+}
+
+
+
+.container_header{
+  max-width:1440px;
+  margin: auto;
+  @include max-screen(767px){
+    background-color: #5a5e5e;
+  }
+}
+
+.btn{
+  display:inline-block;
+  padding: 11px 20px;
+  background-color: #181818;
+  font-size:20px;
+}
+.btn-red{
+  @extend .btn;
+  background-color: red;
+}
+.d_flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  padding-top:7px;
+  margin-left: 32px;
+  display: inline-block;
+}
+section ul{
+  display: flex;
+  list-style:none;
+  float:right;
+  li{
+    font:12px/12px $main_font;
+    font-style: normal;
+    font-weight: 400;
+    color: $white_color;
+    margin-left:16px;
+  }
+}
+%section-default {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display:flex;
+}
+%font-default{
+  font-style: normal;
+  font-weight: 400;
+}
+%spaced-uppercased-text{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.button{
+  font:16px/20px $main_font;
+  @extend %font-default;
+  letter-spacing: 0.4px;
+  color: $main_color;
+  background-color: $white_color;
+  border-radius: 14px;
+  display:inline-flex;
+  align-items:center;
+  padding:5px 10px 5px 4px;
+  &:before{
+    content:"";
+    background-color: $main_color;
+    height:32px;
+    width:32px;
+    border-radius:13px;
+    margin-right:6px;
+  }
+}
+
+
+
+

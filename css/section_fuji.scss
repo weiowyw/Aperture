@@ -1,0 +1,34 @@
+@import "neededDefaults";
+
+
+
+.section_Fuji{
+  background-image:url('imgs/Fuji.jpg');
+  @extend %section-default;
+  min-height:600px;
+  align-items:center;
+  justify-content: right;
+  padding-right:62px;
+  @include max-screen(360px){
+    padding-right: 45px;
+  }
+  @include max-screen(320px){
+    padding-right: 10px;
+  }
+}
+.container_Fuji{
+  max-width:298px;
+}
+.title_Fuji{
+  font:14px/20px $main_font;
+  @extend %font-default;
+  text-align: left;
+  @extend %spaced-uppercased-text;
+  color: $white_color;
+}
+.desc_Fuji{
+  font:14px/20px $main_font;
+  @extend %font-default;
+  text-align: left;
+  color: $grey_color;
+}

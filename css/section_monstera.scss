@@ -1,0 +1,30 @@
+@import "neededDefaults";
+
+.section_Monstera{
+  background-image:url('imgs/Monstera.jpg');
+  @extend %section-default;
+  min-height:600px;
+  align-items:center;
+  justify-content: right;
+  padding-right:87px;
+  @include max-screen(360px){
+    padding-right: 67px;
+  }
+  @include max-screen(320px){
+    padding-right: 30px;
+  }
+}
+.container_Monstera{
+  max-width:273px;
+}
+.title_Monstera{
+  font:14px/20px $main_font;
+  @extend %font-default;
+  @extend %spaced-uppercased-text;
+  color: $white_color;
+}
+.desc_Monstera{
+  font:14px/20px $main_font;
+  @extend %font-default;
+  color: $grey_color;
+}

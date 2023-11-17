@@ -1,0 +1,53 @@
+@import "neededDefaults";
+
+
+.fixed_info {
+  position: absolute;
+  bottom: 41px;
+  right: 40px;
+  @include max-screen(428px){
+    bottom:0;
+    right:0;
+  }
+  li {
+    font: 12px/12px $main_font;
+    font-style: normal;
+    font-weight: 400;
+    color: $white_color;
+    display: inline-flex;
+    margin-left: 16px;
+
+    &:before {
+      content: "";
+      background-image: url("imgs/time.svg");
+      width: 16px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+    &:nth-child(2):before{
+      content: "";
+      background-image: url("imgs/photoshoot.svg");
+      width:16px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+    &:nth-child(3):before{
+      content: "";
+      background-image: url("imgs/ISO.svg");
+      width:32px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+    &:last-of-type:before{
+      content: "";
+      background-image: url("imgs/location.svg");
+      width:10px;
+      height: 16px;
+      display: block;
+      margin-right: 6px;
+    }
+  }
+}

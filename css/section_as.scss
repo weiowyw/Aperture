@@ -1,0 +1,53 @@
+@import "neededDefaults";
+
+
+
+
+.section_AS{
+  @extend %section-default;
+  background-image:url('imgs/Aperture_bg_img.jpg');
+  height: 100vh;
+  justify-content: center;
+  align-items:flex-end;
+  padding-bottom: 71px;
+  @include max-screen(767px){
+    height: 75vh;
+  }
+}
+.container_AS{
+  max-width:580px;
+}
+.sub_title_AS{
+  font: 14px/20px $main_font;
+  @extend %font-default;
+  text-align: center;
+  @extend %spaced-uppercased-text;
+  color: $grey_color;
+  padding-top:20px;
+  @include max-screen(428px){
+    font: 12px/18px 'Poppins';
+  }
+}
+.title_AS{
+  font: 54px/59px $main_font;
+  @extend %font-default;
+  text-align: center;
+  color: $white_color;
+  @include max-screen(428px){
+    font: 35px/40px 'Poppins';
+  }
+}
+.desc_AS{
+  margin-top:18px;
+  font:14px/20px $main_font;
+  @extend %font-default;
+  text-align: center;
+  color: $grey_color;
+  @include max-screen(428px){
+    font:12px/18px 'Poppins';
+    padding-left:15px;
+    padding-right: 15px;
+  }
+}
+
+

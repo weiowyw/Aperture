@@ -1,0 +1,31 @@
+@import "neededDefaults";
+
+
+.section_StarFall{
+  background-image:url('imgs/Starfall.jpg');
+  @extend %section-default;
+  min-height:600px;
+  align-items:center;
+  justify-content: right;
+  padding-right:106px;
+  @include max-screen(360px){
+    padding-right: 85px;
+  }
+  @include max-screen(320px){
+    padding-right: 50px;
+  }
+}
+.container_StarFall{
+  max-width:254px;
+}
+.title_StarFall{
+  font:14px/20px $main_font;
+  @extend %font-default;
+  @extend %spaced-uppercased-text;
+  color: $white_color;
+}
+.desc_StarFall{
+  font:14px/20px $main_font;
+  @extend %font-default;
+  color: $grey_color;
+}

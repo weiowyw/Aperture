@@ -1,0 +1,80 @@
+@import "neededDefaults";
+
+
+
+
+
+.section_what_we_do{
+  padding-top:113px;
+  padding-bottom: 100px;
+  background-color: $main_color;
+  h2{
+    color:$white_color;
+    text-align: center;
+    font:40px/42px $main_font;
+    @extend %font-default;
+    margin-bottom: 15px;
+    @include max-screen(428px){
+      font:30px/32px 'Poppins';
+    }
+  }
+  p{
+    color:$white_color;
+    text-align: center;
+    font:23px/30px $main_font;
+    @extend %font-default;
+    margin-bottom: 42px;
+    @include max-screen(428px){
+      font:17px/24px 'Poppins';
+    }
+  }
+}
+.container_what_we_do{
+  max-width: 1168px;
+  margin:auto;
+}
+.section_what_we_do .d_flex{
+  flex-wrap:wrap;
+  @include max-screen(1024px){
+    justify-content: center;
+  }
+  @include max-screen(428px){
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.item{
+  max-width: 576px;
+  position:relative;
+  margin-bottom: 16px;
+  img{
+    display:block;
+    width: 100%;
+  }
+}
+.desc_img {
+  position: absolute;
+  padding: 30px;
+  width: 100%;
+  bottom: 0;
+  color: $white_color;
+  h4{
+    text-align: left;
+    font:14px/20px $main_font;
+    @extend %font-default;
+    @extend %spaced-uppercased-text;
+    color: $white_color;
+    @include max-screen(428px){
+      font:12px/18px 'Poppins';
+    }
+  }
+  p{
+    text-align: left;
+    font:14px/20px $main_font;
+    @extend %font-default;
+    color: $grey_color;
+    @include max-screen(428px){
+      font:12px/18px 'Poppins';
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import "neededDefaults";
+
+
+
+.section_get_in_touch{
+  background-color: $main_color;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:113px;
+  padding-bottom:108px;
+  text-align: center;
+  @include max-screen(428px){
+    padding-left:15px;
+    padding-right:15px;
+  }
+}
+.container_get_in_touch{
+  max-width:571px;
+}
+.title_get_in_touch{
+  font:40px/42px $main_font;
+  @extend %font-default;
+  color: $white_color;
+  margin-bottom: 15px;
+  @include max-screen(428px){
+    font:30px/32px 'Poppins';
+  }
+}
+.desc_get_in_touch{
+  font:24px/30px $main_font;
+  @extend %font-default;
+  color: $grey_color;
+  margin-bottom:22px;
+  @include max-screen(428px){
+    font:17px/24px 'Poppins';
+  }
+}

@@ -1,0 +1,26 @@
+$main_font: 'Poppins';
+$main_color: #000000;
+$white_color: #FFFFFF;
+$grey_color: #C0C0C0;
+
+%section-default {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display:flex;
+}
+%font-default{
+  font-style: normal;
+  font-weight: 400;
+}
+%spaced-uppercased-text{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+@mixin max-screen($res)
+{
+  @media screen and (max-width: $res)
+  {
+    @content;
+  }
+}
