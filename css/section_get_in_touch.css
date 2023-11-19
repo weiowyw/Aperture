@@ -1,0 +1,32 @@
+.desc_get_in_touch, .title_get_in_touch {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.section_get_in_touch {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 113px;
+  padding-bottom: 108px;
+  text-align: center;
+}
+
+.container_get_in_touch {
+  max-width: 571px;
+}
+
+.title_get_in_touch {
+  font: 40px/42px "Poppins";
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.desc_get_in_touch {
+  font: 24px/30px "Poppins";
+  color: #C0C0C0;
+  margin-bottom: 22px;
+}
+
+/*# sourceMappingURL=section_get_in_touch.css.map */

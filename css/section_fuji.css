@@ -1,0 +1,42 @@
+.section_Fuji {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+}
+
+.desc_Fuji, .title_Fuji {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.title_Fuji {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section_Fuji {
+  background-image: url("imgs/Fuji.jpg");
+  min-height: 600px;
+  align-items: center;
+  justify-content: right;
+  padding-right: 62px;
+}
+
+.container_Fuji {
+  max-width: 298px;
+}
+
+.title_Fuji {
+  font: 14px/20px "Poppins";
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.desc_Fuji {
+  font: 14px/20px "Poppins";
+  text-align: left;
+  color: #C0C0C0;
+}
+
+/*# sourceMappingURL=section_fuji.css.map */

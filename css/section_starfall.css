@@ -1,0 +1,40 @@
+.section_StarFall {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+}
+
+.desc_StarFall, .title_StarFall {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.title_StarFall {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section_StarFall {
+  background-image: url("imgs/Starfall.jpg");
+  min-height: 600px;
+  align-items: center;
+  justify-content: right;
+  padding-right: 106px;
+}
+
+.container_StarFall {
+  max-width: 254px;
+}
+
+.title_StarFall {
+  font: 14px/20px "Poppins";
+  color: #FFFFFF;
+}
+
+.desc_StarFall {
+  font: 14px/20px "Poppins";
+  color: #C0C0C0;
+}
+
+/*# sourceMappingURL=section_starfall.css.map */

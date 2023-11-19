@@ -1,0 +1,47 @@
+.fixed_info {
+  position: absolute;
+  bottom: 41px;
+  right: 40px;
+}
+.fixed_info li {
+  font: 12px/12px "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  display: inline-flex;
+  margin-left: 16px;
+}
+.fixed_info li:before {
+  content: "";
+  background-image: url("imgs/time.svg");
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-right: 6px;
+}
+.fixed_info li:nth-child(2):before {
+  content: "";
+  background-image: url("imgs/photoshoot.svg");
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-right: 6px;
+}
+.fixed_info li:nth-child(3):before {
+  content: "";
+  background-image: url("imgs/ISO.svg");
+  width: 32px;
+  height: 16px;
+  display: block;
+  margin-right: 6px;
+}
+.fixed_info li:last-of-type:before {
+  content: "";
+  background-image: url("imgs/location.svg");
+  width: 10px;
+  height: 16px;
+  display: block;
+  margin-right: 6px;
+}
+
+/*# sourceMappingURL=fixed_info.css.map */

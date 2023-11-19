@@ -1,0 +1,50 @@
+.section_AS {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+}
+
+.desc_AS, .title_AS, .sub_title_AS {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sub_title_AS {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section_AS {
+  background-image: url("imgs/Aperture_bg_img.jpg");
+  height: 100vh;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 71px;
+}
+
+.container_AS {
+  max-width: 580px;
+}
+
+.sub_title_AS {
+  font: 14px/20px "Poppins";
+  text-align: center;
+  color: #C0C0C0;
+  padding-top: 20px;
+}
+
+.title_AS {
+  font: 54px/59px "Poppins";
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.desc_AS {
+  margin-top: 18px;
+  font: 14px/20px "Poppins";
+  text-align: center;
+  color: #C0C0C0;
+}
+
+/*# sourceMappingURL=section_as.css.map */

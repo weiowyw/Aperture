@@ -1,0 +1,23 @@
+/* Error: This file is already being loaded.
+ *   ,--> fixed_info.scss
+ * 1 | @import "./sryle_preproc.scss";
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^ new load
+ *   '
+ *   ,--> section_what_we_do.scss
+ * 1 | @import "./sryle_preproc.scss";
+ *   |         ====================== original load
+ *   '
+ *   fixed_info.scss 1:9          @import
+ *   sryle_preproc.scss 4:9       @import
+ *   section_what_we_do.scss 1:9  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: This file is already being loaded.\a   \250c \2500 \2500 > fixed_info.scss\a 1 \2502  @import "./sryle_preproc.scss";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^ new load\a   \2575 \a   \250c \2500 \2500 > section_what_we_do.scss\a 1 \2502  @import "./sryle_preproc.scss";\d\a   \2502          \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  original load\a   \2575 \a   fixed_info.scss 1:9          @import\a   sryle_preproc.scss 4:9       @import\a   section_what_we_do.scss 1:9  root stylesheet';
+}
