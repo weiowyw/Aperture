@@ -305,7 +305,7 @@ nav .menu-btn {
     --icon-width: 25px;
     position: absolute;
     top: -45px;
-    right: -100%;
+    right: 100%;
     width: calc(var(--icon-width) + 25px);
     height: calc(var(--icon-width) + 25px);
     flex-direction: column;
@@ -336,7 +336,7 @@ nav .menu-btn .line__3 {
 nav.nav-open {
     transform: translateX(0%); }
 nav.nav-open .menu-btn {
-    right: 10%; }
+    right: 0; }
 nav.nav-open .nav-links li {
     transform: translateX(0);
     opacity: 1; }

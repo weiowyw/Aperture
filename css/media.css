@@ -76,7 +76,7 @@
 /*}*/
 
 @media screen and (max-width: 428px) {
-    nav{
+    nav {
         width: 0;
     }
     nav.nav-open{
