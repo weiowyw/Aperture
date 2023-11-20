@@ -17,6 +17,7 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
+
 }
 
 .owl-carousel{
@@ -173,8 +174,6 @@
 
 
 
-
-
 body {
     width: 100%;
     overflow-x:hidden;
@@ -306,7 +305,7 @@ nav .menu-btn {
     --icon-width: 25px;
     position: absolute;
     top: -45px;
-    left: -15%;
+    right: -100%;
     width: calc(var(--icon-width) + 25px);
     height: calc(var(--icon-width) + 25px);
     flex-direction: column;
